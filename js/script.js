@@ -68,5 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cargar datos al inicio
     fetchPerformanceData();
 
-    setInterval(fetchPerformanceData, 1000); 
+    //setInterval(fetchPerformanceData, 1000); 
+	setInterval(fetchPerformanceData, 5000); 
 });
